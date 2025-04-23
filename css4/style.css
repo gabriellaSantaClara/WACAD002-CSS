@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    height: 100%;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 20px;
+    border-radius: 5px;
+    grid-template-columns: 5fr 10fr;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .grid-container1 {
+    display: grid;
+    gap: 20px;
+    border-radius: 5px;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .grid-container2{
+    display: grid;
+    gap: 20px;
+    border-radius: 5px;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .grid-container3{
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 1fr 0fr;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+  }
+
+  .item {
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .vermelho {
+    background-color: darkred;
+  }
+  
+  .azul {
+    background-color: darkblue;
+  }
+  
+  .verde {
+    background-color: darkgreen;
+  }
+  
+  .roxo {
+    background-color: purple;
+  }
+  
+  .laranja {
+    background-color: orange;
+  }
+
+  .amarelo {
+    background-color: yellow;
+  }
+  
+  .limao {
+    background-color: chartreuse;
+  }
